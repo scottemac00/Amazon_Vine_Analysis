@@ -1,10 +1,10 @@
 # Overview
 The purpose of this analysis was to assess bias in Amazon reviews; whether the 'Vine' reviews written by paid members of the program are more favorable than those submitted by non-paid individuals. I used Google Colaboraty Notebooks, Apache Spark (PySpark), Amazon Web Services, and pgAdmin to extract the data from an Amazon US Reviews database.
         
-I selected a dataset that included musical instruments and associated items. Upon extraction, I cleaned and transformed the data using PySpark, then loaded the data into pgAdmin for further analysis.
+I selected a dataset that included musical instruments and associated items. Upon extraction, I cleaned and transformed the data using PySpark, then loaded the data into pgAdmin for further analysis. Images of pgAdmin tables available [here](Resources/Images)
 
 # Results
-The initial vine table DataFrame
+The initial vine table DataFrame:
 ![](Resources/Images/vine_dataframe.png)
 
 * How many Vine reviews and non-Vine reviews were there?
