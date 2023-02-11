@@ -18,7 +18,8 @@
         * 5-star non-Vine reviews: 56.96%
 
 
-# Summary 
+# Summary
+
         The data above shows that Vine reviews were significantly LESS than non-Vine reviews. Proportionally, though, of the 
         paid reviews, more than ***HALF*** were 5-Star. What this tells decision makers is that, according to this sample set, 
         paid reviewers give 5-star ratings about the same amount as non-paid reviewers. This could mean that those purchasing musical 
@@ -29,8 +30,8 @@
         regression might better illuminate any bias in reviews and also might bring other correlations to light. Perhaps certain types 
         of items (datasets) are more similar than others, and thus might better represent conclusions on the broader population.
         
-        Another aspect of the data worthy of further analaysis is the *'verified_purchase'* column:
-        ![DataFrame](Resources/Images/verified_purchase.png)
+        Another aspect of the data worthy of further analaysis is the 'verified_purchase' column:
+         ![verified_purchase](https://user-images.githubusercontent.com/114544346/218237333-471c8845-4642-4228-b8c9-1c880e23dbac.png)
         If a review is high, regardless of paid or non-paid status, does this call the review's integrity into question? 
         This information might inform updates to review accepted practices and policies, and ultimately the Vine program itself.
 
