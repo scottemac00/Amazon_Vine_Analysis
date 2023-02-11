@@ -24,4 +24,5 @@ This rather small sample set would best be compared against more of the 50 Amazo
 
 Another aspect of the data worthy of further analaysis is the 'verified_purchase' column:
 ![verified_purchase](https://user-images.githubusercontent.com/114544346/218237333-471c8845-4642-4228-b8c9-1c880e23dbac.png)
+
 If a review is high, regardless of paid or non-paid status, does this call the review's integrity into question? This information might inform updates to review accepted practices and policies, and ultimately the Vine program itself.
