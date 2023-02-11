@@ -1,10 +1,10 @@
 # Overview
 The purpose of this analysis was to assess bias in Amazon reviews; whether the 'Vine' reviews written by paid members of the program are more favorable than those submitted by non-paid individuals. I used Google Colaboraty Notebooks, Apache Spark (PySpark), Amazon Web Services, and pgAdmin to extract the data from an Amazon US Reviews database.
         
-I selected a dataset that included musical instruments and associated items. Upon extraction, I cleaned and transformed the data using PySpark, then loaded the data into pgAdmin for further analysis.
+I selected a dataset that included 🎸🎷 musical instruments 🎺🎻 and associated items. Upon extraction, I cleaned and transformed the data using PySpark, then loaded the data into pgAdmin for further analysis. Images of pgAdmin tables available [here](Resources/Images)
 
 # Results
-The initial vine table DataFrame
+The initial vine table DataFrame:
 ![](Resources/Images/vine_dataframe.png)
 
 * How many Vine reviews and non-Vine reviews were there?
@@ -24,4 +24,5 @@ This rather small sample set would best be compared against more of the 50 Amazo
 
 Another aspect of the data worthy of further analaysis is the 'verified_purchase' column:
 ![verified_purchase](https://user-images.githubusercontent.com/114544346/218237333-471c8845-4642-4228-b8c9-1c880e23dbac.png)
+
 If a review is high, regardless of paid or non-paid status, does this call the review's integrity into question? This information might inform updates to review accepted practices and policies, and ultimately the Vine program itself.
